@@ -5,7 +5,18 @@ function updatePlaylist(obj, key, value) {
 }
 
 updatePlaylist(playlist, "Toby", "Feel it" )
+
 console.log(playlist) // { Maroon5: 'Girls like you', Toby: 'Feel it' }
+
+
+
+
+function removeFromPlaylist(playlist, artist) {
+  delete playlist.artist
+  return playlist
+}
+
+
 
 
 function destructivelyUpdateObjectWithKeyAndValue(obj, key, value) {

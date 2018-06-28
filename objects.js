@@ -13,10 +13,9 @@ console.log(playlist) // { Maroon5: 'Girls like you', Toby: 'Feel it' }
 
 function removeFromPlaylist(obj, artist) {
   delete obj.artist
-  console.log(obj)
+  return obj
 }
 
 
 removeFromPlaylist(playlist, "Toby")
 
-console.log(playlist)

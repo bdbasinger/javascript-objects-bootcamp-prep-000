@@ -19,3 +19,4 @@ function removeFromPlaylist(obj, artist) {
 
 removeFromPlaylist(playlist, "Toby")
 
+console.log(playlist)

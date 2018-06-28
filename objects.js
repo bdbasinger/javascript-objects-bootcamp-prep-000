@@ -19,4 +19,4 @@ function removeFromPlaylist(obj, artist) {
 
 removeFromPlaylist(playlist, "Toby")
 
-console.log(playlist)
+console.log(playlist) // { Maroon5: 'Girls like you' }

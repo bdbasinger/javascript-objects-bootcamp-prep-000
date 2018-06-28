@@ -12,20 +12,7 @@ console.log(playlist) // { Maroon5: 'Girls like you', Toby: 'Feel it' }
 
 
 function removeFromPlaylist(playlist, artist) {
-  delete playlist.artist
-  return playlist
+  return delete playlist.artist
 }
 
 
-
-
-function destructivelyUpdateObjectWithKeyAndValue(obj, key, value) {
-  obj[key] = value
-  return obj
-}
-
-var ids = { Brennan: 1, James: 2, David: 3 }
-
-destructivelyUpdateObjectWithKeyAndValue(ids, "Ruben", 4)
-
-console.log(ids) // { Brennan: 1, James: 2, David: 3, Ruben: 4 }

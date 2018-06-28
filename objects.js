@@ -5,7 +5,7 @@ function updatePlaylist(obj, key, value) {
 }
 
 updatePlaylist(playlist, "Toby", "Feel it" )
-console.log(playlist) //
+console.log(playlist) // { Maroon5: 'Girls like you', Toby: 'Feel it' }
 
 
 function destructivelyUpdateObjectWithKeyAndValue(obj, key, value) {
